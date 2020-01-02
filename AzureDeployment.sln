@@ -7,6 +7,8 @@ Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "DeployWordpress", "DeployWo
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "WebApp+SQL", "WebApp+SQL\WebApp+SQL.deployproj", "{3184396D-874C-431D-AA6D-90DD4112403F}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "WordpressDeployLinux", "WordpressDeployLinux\WordpressDeployLinux.deployproj", "{2F571457-DF1B-41BE-9944-AA23F8889B8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3184396D-874C-431D-AA6D-90DD4112403F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3184396D-874C-431D-AA6D-90DD4112403F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3184396D-874C-431D-AA6D-90DD4112403F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F571457-DF1B-41BE-9944-AA23F8889B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F571457-DF1B-41BE-9944-AA23F8889B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F571457-DF1B-41BE-9944-AA23F8889B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F571457-DF1B-41BE-9944-AA23F8889B8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
