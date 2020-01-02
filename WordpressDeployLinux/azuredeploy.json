@@ -92,7 +92,7 @@
     }
   },
   "variables": {
-    "nicName": "[concat(reference(variables('vmName')), '-nic')]",
+    "nicName": "[concat(parameters('vmDnsName'), '-nic')]",
     "addressPrefix": "10.0.0.0/16",
     "imagePublisher": "Canonical",
     "imageVersion": "latest",
@@ -117,7 +117,7 @@
         ]
       }
     },
-    "networkSecurityGroupName": "[concat(reference(variables('vmName')), '-nsg')]",
+    "networkSecurityGroupName": "[concat(parameters('vmDnsName'), '-nsg')]",
     "shimspmonitorstorageName": "[concat('shimsp', uniqueString(resourceGroup().id))]",
     "ladMetricsResourceId": "[resourceId('Microsoft.Compute/virtualMachines', variables('vmName'))]"
   },
@@ -588,7 +588,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/shidwalden/DeployWordpress/master/install_wordpress.sh"
+            "https://raw.githubusercontent.com/shidwalden/AzureDeployment/master/WordpressDeployLinux/install_wordpress.sh"
           ]
         },
         "protectedSettings": {
