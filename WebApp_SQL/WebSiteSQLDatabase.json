@@ -81,6 +81,25 @@
       "metadata": {
         "description": "Describes the performance level for Edition"
       }
+    },
+    "environmentTag": {
+      "type": "string",
+      "defaultValue": "Development",
+      "allowedValues": [
+        "Development",
+        "QA Functional",
+        "QA Performance",
+        "Staging",
+        "Production"
+      ]
+    },
+    "ownerTag": {
+      "type": "string",
+      "defaultValue": null
+    },
+    "applicationTag": {
+      "type": "string",
+      "defaultValue": null
     }
   },
   "variables": {

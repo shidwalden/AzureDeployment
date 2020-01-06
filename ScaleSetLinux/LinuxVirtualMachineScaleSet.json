@@ -57,6 +57,25 @@
       "metadata": {
         "description": "Administrator password on all VMs"
       }
+    },
+    "environmentTag": {
+      "type": "string",
+      "defaultValue": "Development",
+      "allowedValues": [
+        "Development",
+        "QA Functional",
+        "QA Performance",
+        "Staging",
+        "Production"
+      ]
+    },
+    "ownerTag": {
+      "type": "string",
+      "defaultValue": null
+    },
+    "applicationTag": {
+      "type": "string",
+      "defaultValue": null
     }
   },
   "variables": {

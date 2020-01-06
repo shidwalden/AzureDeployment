@@ -19,6 +19,9 @@
     },
     "adminPassword": {
       "value": "P@ssw0rd!"
+    },
+    "applicationTag": {
+      "value": "ScaleSetLinux"
     }
   }
 }
