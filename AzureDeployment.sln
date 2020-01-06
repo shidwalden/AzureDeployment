@@ -9,11 +9,9 @@ Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "WebApp_SQL", "WebApp_SQL\We
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "ScaleSetLinux", "ScaleSetLinux\ScaleSetLinux.deployproj", "{C7C398E0-289B-4BF1-AB45-CE945D142D0A}"
 EndProject
-Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "LinuxAvailabilitySet_Loadbalancer", "LinuxAvailabilitySet_Loadbalancer\LinuxAvailabilitySet_Loadbalancer.deployproj", "{B1C8FA98-AF3A-4045-AE57-D59C6563D1C4}"
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "VMAvailabilitySet_Loadbalancer", "LinuxAvailabilitySet_Loadbalancer\VMAvailabilitySet_Loadbalancer.deployproj", "{B1C8FA98-AF3A-4045-AE57-D59C6563D1C4}"
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "DeployAKS_ExistingVnet", "DeployAKS_ExistingVnet\DeployAKS_ExistingVnet.deployproj", "{F2C4A0B1-B3BA-48E0-BCAC-5894C687B886}"
-EndProject
-Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SQLServer_AG_existingVnet", "SQLServer_AG_existingVnet\SQLServer_AG_existingVnet.deployproj", "{70722F10-F4A8-4041-82D6-1080F4E59EA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{F2C4A0B1-B3BA-48E0-BCAC-5894C687B886}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C4A0B1-B3BA-48E0-BCAC-5894C687B886}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C4A0B1-B3BA-48E0-BCAC-5894C687B886}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70722F10-F4A8-4041-82D6-1080F4E59EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70722F10-F4A8-4041-82D6-1080F4E59EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70722F10-F4A8-4041-82D6-1080F4E59EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70722F10-F4A8-4041-82D6-1080F4E59EA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

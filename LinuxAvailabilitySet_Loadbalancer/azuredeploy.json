@@ -36,6 +36,11 @@
     "imagePublisher": {
       "type": "string",
       "defaultValue": "MicrosoftWindowsServer",
+      "allowedValues": [
+        "Canonical",
+        "RedHat",
+        "MicrosoftWindowsServer"
+      ],
       "metadata": {
         "description": "Image Publisher"
       }
@@ -43,6 +48,11 @@
     "imageOffer": {
       "type": "string",
       "defaultValue": "WindowsServer",
+      "allowedValues": [
+        "UbuntuServer",
+        "RHEL",
+        "WindowsServer"
+      ],
       "metadata": {
         "description": "Image Offer"
       }
@@ -50,6 +60,21 @@
     "imageSKU": {
       "type": "string",
       "defaultValue": "2012-R2-Datacenter",
+      "allowedValues": [
+        "2012-R2-datacenter",
+        "2016-datacenter",
+        "2016-datacenter-core",
+        "2019-datacenter",
+        "2019-datacenter-core",
+        "16.04-LTS",
+        "18.04-LTS",
+        6.8,
+        6.9,
+        6.10,
+        7.6,
+        7.7,
+        8
+      ],
       "metadata": {
         "description": "Image SKU"
       }
@@ -85,6 +110,16 @@
     "vmSize": {
       "type": "string",
       "defaultValue": "Standard_D1",
+      "allowedValues": [
+        "Standard_B1ms",
+        "Standard_B2s",
+        "Standard_B2ms",
+        "Standard_D1",
+        "Standard_D2",
+        "Standard_D3",
+        "Standard_D4",
+        "Standard_D11"
+      ],
       "metadata": {
         "description": "Size of the VM"
       }
