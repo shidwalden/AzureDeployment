@@ -6,8 +6,8 @@ Param(
     [switch] $UploadArtifacts,
     [string] $StorageAccountName,
     [string] $StorageContainerName = $ResourceGroupName.ToLowerInvariant() + '-stageartifacts',
-    [string] $TemplateFile = 'WebSiteSQLDatabase.json',
-    [string] $TemplateParametersFile = 'WebSiteSQLDatabase.parameters.json',
+    [string] $TemplateFile = 'LinuxVirtualMachineScaleSet.json',
+    [string] $TemplateParametersFile = 'LinuxVirtualMachineScaleSet.parameters.json',
     [string] $ArtifactStagingDirectory = '.',
     [string] $DSCSourceFolder = 'DSC',
     [switch] $ValidateOnly

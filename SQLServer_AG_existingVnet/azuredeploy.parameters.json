@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namePrefix": {
+      "value": "dbadave"
+    },
+    "existingDomainName": {
+      "value": "ufp.cloud"
+    },
+    "adminUsername": {
+      "value": "dave"
+    },
+    "sqlServiceAccount": {
+      "value": "dave"
+    },
+    "existingVirtualNetworkRGName": {
+      "value": "dbadave-rg"
+    },
+    "existingVirtualNetworkName": {
+      "value": "dbadave-rg-vnet"
+    },
+    "adminPassword": {
+      "value": "Fuck4duck!23"
+    },
+    "sqlServicePassword": {
+      "value": "Fuck4duck!23"
+    },
+    "existingSubnetName": {
+      "value": "sql-subnet"
+    },
+    "location": {
+      "value": "centralus"
+    }
+  }
+}

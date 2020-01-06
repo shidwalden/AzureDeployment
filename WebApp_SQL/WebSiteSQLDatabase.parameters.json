@@ -3,13 +3,19 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "hostingPlanName": {
-      "value": null
+      "value": "DWPlan"
     },
     "administratorLogin": {
-      "value": null
+      "value": "dbadave"
     },
     "databaseName": {
-      "value": null
+      "value": "daveapp"
+    },
+    "skuName": {
+      "value": "F1"
+    },
+    "administratorLoginPassword": {
+      "value": "P@ssw0rd!"
     }
   }
 }
